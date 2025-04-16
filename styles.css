@@ -38,8 +38,19 @@ nav p, nav a, .invite-code a{
 }
 
 .logo-main {
-  max-width: 100%;
+  width: 100%;
+  max-width: 800px;
   justify-self: center;
+}
+
+.button {
+  background-color: #FFF;
+  color: #1400FF;
+  border-radius: 100px;
+  font-size: clamp(28px, 2.8vw, 2.8vw);
+  padding: clamp(28px, 2.8vw, 2.8vw);
+  text-decoration: none;
+  font-weight: 600;
 }
 
 
